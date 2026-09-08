@@ -13,7 +13,7 @@ def elzero_function(name):
     """
     print(f"Hello{name} From Elzero")
 
-elzero_function ("Hussien")
+#elzero_function ("Hussien")
 
 #print(dir(elzero_function))
 
