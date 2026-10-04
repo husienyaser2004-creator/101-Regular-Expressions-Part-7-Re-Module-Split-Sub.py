@@ -32,7 +32,7 @@ class B(A):
 class C(A):
 
     def do_something(self):
-
+        
         print("From Class C")
         
 
