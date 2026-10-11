@@ -17,9 +17,9 @@ cr.execute("create table if not exists users (user_id integer, name text)")
 cr.execute("create table if not exists skills (name text, progress integer, user_id integer)")
 
 # Inserting Data Into Table
-#cr.execute("insert into users(user_id, name) Values(1, 'Hussien')")
-#cr.execute("insert into users(user_id, name) Values(2, 'Ali')")
-#cr.execute("insert into users(user_id, name) Values(3, 'Noha')")
+cr.execute("insert into users(user_id, name) Values(1, 'Hussien')")
+cr.execute("insert into users(user_id, name) Values(2, 'Ali')")
+cr.execute("insert into users(user_id, name) Values(3, 'Noha')")
 
 my_list = ["Hussien", "Yasser", "Soudy", "Mohamed", "Leen", "Rahama", "Sanaa"]
 
