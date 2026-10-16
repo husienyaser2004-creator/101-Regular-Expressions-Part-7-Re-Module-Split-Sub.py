@@ -12,11 +12,11 @@ db = sqlite3.connect("app.db")
 cr = db.cursor()
 
 # Update Data
-#cr.execute("update users set name = 'Ahmed' where user_id = 1")
-#cr.execute("update users set name = 'Mohamed' where user_id = 2")
-#cr.execute("update users set name = 'Ali' where user_id = 3")
-#cr.execute("update users set name = 'sayed' where user_id = 4")
-#cr.execute("update users set name = 'Ameer' where user_id = 5")
+cr.execute("update users set name = 'Ahmed' where user_id = 1")
+cr.execute("update users set name = 'Mohamed' where user_id = 2")
+cr.execute("update users set name = 'Ali' where user_id = 3")
+cr.execute("update users set name = 'sayed' where user_id = 4")
+cr.execute("update users set name = 'Ameer' where user_id = 5")
 
 # Dalete Data
 cr.execute("delete from users Where user_id = 5")
