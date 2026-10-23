@@ -33,6 +33,7 @@ def test_case_two():
     assert 5 * 50 == 250, "Should Be 250"    
 
 if __name__ == "__main__" :
+
     test_case_one()
     test_case_two()
 
@@ -47,7 +48,6 @@ class MyTestCase(unittest.TestCase) :
     def test_two(self):
 
         self.assertEqual(40 + 60, 100, "Should Be 100")
-
 
     def test_three(self) :
 
